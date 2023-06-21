@@ -2,3 +2,35 @@ body {
     background-color:darkslategray;
     color: white;
 }
+
+nav {
+    background-color: white;
+    color: darkslategray;
+}
+
+a {
+    color: darkslategray;
+    font-size: larger;
+}
+
+#name {
+    text-align: right;
+}
+
+#img {
+    width: 300px;
+    border: solid white 3px;
+}
+
+#center {
+    text-align: center;
+}
+
+.quote {
+    font-size: 30px;
+}
+
+.whiteBG {
+    background-color: white;
+    color: darkslategray;
+}
