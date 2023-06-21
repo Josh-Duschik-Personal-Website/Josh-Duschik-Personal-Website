@@ -24,6 +24,8 @@ a {
 
 #center {
     text-align: center;
+    font-size: xx-large;
+    margin: 50px;
 }
 
 .quote {
@@ -33,4 +35,5 @@ a {
 .whiteBG {
     background-color: white;
     color: darkslategray;
+    font-size: x-large;
 }
