@@ -14,6 +14,13 @@ a {
     padding: 5px;
 }
 
+a:hover {
+    background-color: darkslategray;
+    color: white;
+    padding: 4px;
+    margin: 1px;
+}
+
 #name {
     text-align: right;
 }
@@ -40,3 +47,31 @@ a {
     padding: 5px;
 }
 
+@media only screen and (min-width: 901px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+    }
+
+    .label {
+        border: white solid 1px;
+        text-align: center;
+    }
+    
+    .item {
+        max-width: 100px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .label {
+        border: white solid 1px;
+        text-align: center;
+    }
+}
