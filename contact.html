@@ -1,25 +1,32 @@
 <html>
-    <head>
-        <title>Josh's Personal Website</title>
-        <link href="./style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <nav>
-            <h1 id="name">Josh Duschik</h1>
-            <a href="./index.html">Home</a>
-            <a href="./about.html">About</a>
-            <a href="./portfolio.html">Portfolio</a>
-          </nav>
-          <br />
-        <form action="./index.html">
-            <label for="name">Name:</label><br />
-            <input id="name" type="text" name="name"/><br />
-            <label for="email">Email:</label><br />
-            <input id="email" type="email" name="email"/><br />
-            <label for="textarea">Comments:</label><br />
-            <textarea id="textarea" name="textarea" rows="10" cols="10"></textarea><br />
+  <head>
+    <title>Josh's Personal Website</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <h1 id="name">Josh Duschik</h1>
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./portfolio.html">Portfolio</a>
+    </nav>
+    <section>
+      <h1 class="whiteBG" id="center">Contact Me</h1>
+    </section>
 
-            <br /><input type="submit" value="Submit" />
-        </form>
-    </body>
+    <form class="container" action="./index.html">
+      <br />
+      <label class="label" for="fullname">Name:</label>
+      <input class="label" id="fullname" type="text" name="fullname" /><br />
+
+      <label class="label" for="email">Email:</label>
+      <input class="label" id="email" type="email" name="email" /><br />
+
+      <label class="label" for="textarea">Comments:</label>
+      <textarea class="label" id="textarea" name="textarea" rows="10"></textarea><br />
+
+      <br />
+      <input class="item" type="submit" value="Submit" />
+    </form>
+  </body>
 </html>
