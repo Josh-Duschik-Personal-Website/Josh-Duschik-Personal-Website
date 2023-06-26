@@ -21,16 +21,16 @@ a:hover {
     margin: 1px;
 }
 
-#name {
+.name {
     text-align: right;
 }
 
-#img {
+.img {
     width: 300px;
     border: solid white 3px;
 }
 
-#center {
+.center {
     text-align: center;
     font-size: xx-large;
     margin: 50px;
